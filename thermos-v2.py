@@ -14,7 +14,7 @@ def page_not_found(e):
 
 #@app.errorhandler(500)
 #def server_error(e):
-#    return render_template ('500.html'), 500
+    return render_template ('500.html'), 500
 
 if (__name__) == ('__main__'):
     app.run(host='0.0.0.0')  
